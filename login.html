@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The web site of bpdjesus</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <form action="/action_page.php">
+      <label for="user">First name:</label>
+      <input type="text" id="user" name="fname"><br><br>
+      <label for="pass">Last name:</label>
+      <input type="text" id="pass" name="lname"><br><br>
+      <button onclick="newUser(user, pass)">Sign up</button> 
+      <input type="submit" value="Submit">
+    </form> 
+  
+    <div>
+    Don't have an account?
+      <button onclick="myFunction()">Sign up</button> 
+    </div>
+  </body>
+</html>
